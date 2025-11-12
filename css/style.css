@@ -1,0 +1,72 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    background-color: #24353f;
+}
+
+@font-face {
+    font-family: Pacificocursive;
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb;
+    src: url(../fonts/TitilliumWeb-Regular.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+    font-family: "TitilliumWeb";
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --main-color: #343434;
+    --Light-black: #1c1c1c;
+    --text-parghra: #748182;
+    --white-color: #fff;
+}
+
+h1 {
+    color: #17a2b8;
+    font-family: "TitilliumWeb";
+    font-size: 40px;
+}
+
+.b-check {
+    background-color: transparent;
+    color: #17a2b8;
+    border: solid #17a2b8 2px !important;
+}
+
+.b-check:hover {
+    background-color: #17a2b8;
+    border: solid #17a2b8 2px !important;
+    color: #fff;
+}
+.account p{
+        font-family: "TitilliumWeb";
+        color: #fff;
+        font-size: 18px;
+}
+.account a {
+    font-family: "TitilliumWeb";
+    color: #fff;
+}
+.sec{
+        box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+.welcome{
+}
